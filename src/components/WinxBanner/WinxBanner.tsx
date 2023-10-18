@@ -1,7 +1,7 @@
 import useDevices from "../../hooks/useDevices"
 
 import winxBannerDesktop from '../../assets/winx-banner-desktop.webp'
-import winxBannerMobile from '../../assets/winx-banner-mobile.png'
+import winxBannerMobile from '../../assets/winx-banner-mobile.webp'
 
 import styles from './WinxBanner.module.scss'
 
