@@ -1,0 +1,38 @@
+.container {
+  .container-items {
+    align-content: center;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: center;
+
+  }
+
+  .item {
+    font-size: 2.5rem;
+
+    @media (min-width: 769px) {
+      font-size: 4.5rem;
+    }
+  }
+
+  .days-left {
+    font-size: 15rem;
+  }
+
+  .emphasis {
+    font-weight: 800;
+    border: 1rem dashed red;
+    margin: 2rem 2rem;
+    padding: 1rem;
+
+    @media (min-width: 769px) {
+      padding: 2rem;
+    }
+  }
+
+  .subtitle {
+    font-size: 2rem;
+  }
+}
