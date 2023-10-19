@@ -28,8 +28,11 @@ const countdownMessage = (daysLeft: number) => {
 }
 
 const calculateDaysLeft = () => {
+    const brasiliaOffset = -3 * 60;
+
     const startDate = new Date()
     const endDate = new Date('2023-11-18')
+    endDate.setMinutes(endDate.getMinutes() - brasiliaOffset);
 
     const diffDate = endDate.getTime() - startDate.getTime()
     return Math.floor(diffDate / (1000 * 60 * 60 * 24))
