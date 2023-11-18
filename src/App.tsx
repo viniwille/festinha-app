@@ -1,4 +1,5 @@
 import React from 'react'
+import { Analytics } from '@vercel/analytics/react'
 
 import DaysCounter from './components/DaysCounter'
 import WinxBanner from './components/WinxBanner'
@@ -12,6 +13,7 @@ function App() {
       <DaysCounter />
       <WinxBanner />
       <SpotifyPlayer />
+      <Analytics />
     </div>
   );
 }
