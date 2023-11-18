@@ -31,7 +31,7 @@ const calculateDaysLeft = () => {
     const brasiliaOffset = -3 * 60;
 
     const startDate = new Date()
-    const endDate = new Date('2023-11-18')
+    const endDate = new Date('2023-11-19')
     endDate.setMinutes(endDate.getMinutes() - brasiliaOffset);
 
     const diffDate = endDate.getTime() - startDate.getTime()
